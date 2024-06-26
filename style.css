@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+}
+body {
+  background-color: honeydew;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 30px 50px;
+  font-size: 20px;
+}
+.count {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+  }
+}
